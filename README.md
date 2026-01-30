@@ -1,4 +1,4 @@
-# Exploratory Bioinformatics & Computational Biology Project
+# Bioinformatics Analysis of Axolotl Limb Regeneration
 
 ## Repository Purpose
 This repository is created as part of a bioinformatics course to explore foundational concepts in computational biology and biological data analysis. Although my long-term career interest is in microbiology-related roles, this project helps me build essential programming and data analysis skills used in modern biological research.
@@ -6,10 +6,12 @@ This repository is created as part of a bioinformatics course to explore foundat
 ## Technical Skills Inventory
 I am currently comfortable with or gaining familiarity in the following tools and skills:
 
-- Basic programming concepts (Python, R – beginner level)
+- Python and R for data analysis and scripting
 - Git & GitHub (version control, repositories, README documentation)
-- Command-line basics
-- Introductory bioinformatics concepts
+- Command-line tools (Linux/Unix environment)
+- Workflow management using Nextflow
+- Containerization with Apptainer
+- Sequence alignment and assembly tools such as: minimap2 and SPAdes
 - Biological data handling and interpretation
 - Basic statistics for biological data
 - Markdown documentation
