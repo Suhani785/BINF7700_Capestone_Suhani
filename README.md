@@ -1,7 +1,7 @@
 # Bioinformatics Analysis of Axolotl Limb Regeneration
 
 ## Repository Purpose
-This repository is created as part of a bioinformatics course to explore foundational concepts in computational biology and biological data analysis. Although my long-term career interest is in microbiology-related roles, this project helps me build essential programming and data analysis skills used in modern biological research.
+This project focuses on the computational and bioinformatics analysis of single-cell RNA sequencing (scRNA-seq) data from axolotl limb regeneration. The work builds upon existing studies and extends them through additional data exploration and interpretation.
 
 ## Technical Skills Inventory
 I am currently comfortable with or gaining familiarity in the following tools and skills:
