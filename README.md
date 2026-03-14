@@ -63,5 +63,21 @@ Key analyses performed include:
 
 Next steps include organizing results, preparing visualizations, and developing the final presentation and project report.
 
+## Key Results
+### UMAP Clustering of Stromal Cell Populations
+[View UMAP clustering](results/cluster_umap.pdf)
+
+### Mesenchymal Progenitor Trajectory
+[View mesenchymal trajectory](results/mesenchymal_trajectory.pdf)
+
+### Fibroblast Differentiation Trajectory
+[View fibroblast trajectory](results/fibroblast_trajectory.pdf)
+
+### Differential Expression Volcano Plot
+[View volcano plot](results/volcano_plot.pdf)
+
+### Gene Expression Heatmap (Early vs Late)
+[View heatmap](results/heatmap_Early_vs_Late_FINAL.pdf)
+
 ## Notes
 This repository is a work in progress and will continue to evolve as new analyses, documentation, and project materials are added throughout the Capstone project.
