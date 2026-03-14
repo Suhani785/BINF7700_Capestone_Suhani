@@ -8,6 +8,12 @@ This Capstone project analyzes single-cell RNA sequencing (scRNA-seq) data to in
 
 The computational workflow includes clustering, trajectory inference, pseudotime analysis, gene program comparison, functional enrichment analysis, and protein interaction network analysis.
 
+## Dataset
+
+The analysis uses publicly available single-cell RNA-sequencing data related to axolotl limb regeneration.
+
+The dataset contains stromal cell populations including mesenchymal progenitor-like cells and fibroblasts, which were analyzed to investigate transcriptional dynamics during regeneration.
+
 ## Tools used
 Key analysis tools used in this project include:
 
@@ -96,10 +102,41 @@ The computational analysis pipeline used in this project follows these main step
 8. **Protein interaction network analysis** using STRING
 9. **Visualization of results** including UMAP plots, trajectories, heatmaps, and volcano plots
 
+## Tools and Software
+
+The following tools were used in this analysis:
+
+* **Seurat (R)** – single-cell RNA-seq data processing and clustering
+* **Monocle3 (R)** – trajectory inference and pseudotime analysis
+* **PANTHER** – Gene Ontology enrichment analysis
+* **STRING** – protein interaction network analysis
+* **R / RStudio** – statistical analysis and visualization
+* **GitHub** – project version control and documentation
+
+## Reproducibility
+
+To reproduce the analysis:
+
+1. Clone the repository
+
+```
+git clone https://github.com/Suhani785/BINF7700_Capstone_Suhani.git
+```
+
+2. Open the R scripts inside the `scripts/` directory.
+
+3. Run the analysis pipeline using R / RStudio.
+
+4. Generated outputs will appear in the `results/` and `figures/` folders.
+
 ## Notes
 This repository is a work in progress and will continue to evolve as new analyses, documentation, and project materials are added throughout the Capstone project.
 
 ## Author
-Suhani Patel  
-M.S. Bioinformatics, Northeastern University (Toronto)
+
+**Suhani Patel**
+M.S. Bioinformatics
+Northeastern University, Toronto
+
+GitHub: https://github.com/Suhani785
 
