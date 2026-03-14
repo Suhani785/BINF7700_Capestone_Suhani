@@ -28,40 +28,43 @@ The goal of this project is to identify shared and population-specific gene prog
 8. Comparative analysis of shared and unique gene programs  
 
 ## Project Structure
+
+```
 BINF7700_Capstone_Suhani
 │
 ├── data
-│   fibroblast_top300_pseudotime.txt
-│   fibroblast_unique_genes.txt
-│   mesenchymal_top300_pseudotime.txt
-│   mesenchymal_unique_genes.txt
-│   shared_top300_genes.txt
+│   ├── fibroblast_top300_pseudotime.txt
+│   ├── fibroblast_unique_genes.txt
+│   ├── mesenchymal_top300_pseudotime.txt
+│   ├── mesenchymal_unique_genes.txt
+│   └── shared_top300_genes.txt
 │
 ├── docs
-│   axolotl_research_proposal.pdf
-│   axolotl_project_timeline
+│   ├── axolotl_research_proposal.pdf
+│   └── axolotl_project_timeline
 │
 ├── figures
-│   GLI2_featureplot.pdf
-│   GZMA_featureplot.pdf
-│   PROM1_featureplot.pdf
-│   cluster_labels.pdf
+│   ├── GLI2_featureplot.pdf
+│   ├── GZMA_featureplot.pdf
+│   ├── PROM1_featureplot.pdf
+│   └── cluster_labels.pdf
 │
 ├── results
-│   cluster_umap.pdf
-│   mesenchymal_trajectory.pdf
-│   fibroblast_trajectory.pdf
-│   volcano_plot.pdf
-│   heatmap_Early_vs_Late_FINAL.pdf
-│   heatmap_top20.pdf
-│   mesenchymal_markers.pdf
+│   ├── cluster_umap.pdf
+│   ├── mesenchymal_trajectory.pdf
+│   ├── fibroblast_trajectory.pdf
+│   ├── volcano_plot.pdf
+│   ├── heatmap_Early_vs_Late_FINAL.pdf
+│   ├── heatmap_top20.pdf
+│   └── mesenchymal_markers.pdf
 │
 ├── scripts
-│   trajectory_analysis.R
-│   pseudotime_analysis.R
-│   venn_analysis.R
+│   ├── trajectory_analysis.R
+│   ├── pseudotime_analysis.R
+│   └── venn_analysis.R
 │
 └── README.md
+```
 
 ## Technical Skills Inventory
 Throughout this project, I have used or gained familiarity with the following tools and skills:
