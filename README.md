@@ -8,6 +8,7 @@ This Capstone project analyzes single-cell RNA sequencing (scRNA-seq) data to in
 
 The computational workflow includes clustering, trajectory inference, pseudotime analysis, gene program comparison, functional enrichment analysis, and protein interaction network analysis.
 
+## Tools used
 Key analysis tools used in this project include:
 
 - Seurat for clustering and visualization  
@@ -17,7 +18,7 @@ Key analysis tools used in this project include:
 
 The goal of this project is to identify shared and population-specific gene programs that contribute to stromal cell differentiation and functional specialization.
 
-## Project Workflow
+## Workflow
 1. Data preprocessing and quality control  
 2. Cell clustering and visualization  
 3. Identification of stromal cell populations  
@@ -26,6 +27,22 @@ The goal of this project is to identify shared and population-specific gene prog
 6. Gene Ontology enrichment analysis  
 7. Protein interaction network analysis  
 8. Comparative analysis of shared and unique gene programs  
+
+## Key Results
+### UMAP Clustering of Stromal Cell Populations
+[View UMAP clustering](results/cluster_umap.pdf)
+
+### Mesenchymal Progenitor Trajectory
+[View mesenchymal trajectory](results/mesenchymal_trajectory.pdf)
+
+### Fibroblast Differentiation Trajectory
+[View fibroblast trajectory](results/fibroblast_trajectory.pdf)
+
+### Differential Expression Volcano Plot
+[View volcano plot](results/volcano_plot.pdf)
+
+### Gene Expression Heatmap (Early vs Late)
+[View heatmap](results/heatmap_Early_vs_Late_FINAL.pdf)
 
 ## Project Structure
 
@@ -64,59 +81,25 @@ BINF7700_Capstone_Suhani
 │   └── venn_analysis.R
 │
 └── README.md
-```
+```  
+## Analysis Workflow
 
-## Technical Skills Inventory
-Throughout this project, I have used or gained familiarity with the following tools and skills:
+The computational analysis pipeline used in this project follows these main steps:
 
-- Python and R for data analysis and scripting  
-- Git & GitHub for version control and project documentation  
-- Command-line tools in Linux/Unix environments  
-- Workflow management using Nextflow  
-- Containerization with Apptainer  
-- Sequence alignment and assembly tools such as minimap2 and SPAdes  
-- Biological data handling and interpretation  
-- Basic statistical analysis for biological datasets  
-- Markdown documentation for reproducible research  
-
-## Learning Goals for the Course
-Throughout this course, I aim to:
-
-- Understand how computational biology and bioinformatics workflows function  
-- Gain foundational knowledge of programming languages used in biological research  
-- Learn how biological datasets (genomics, sequences, metadata) are analyzed computationally  
-- Develop confidence using GitHub for academic and professional projects  
-- Build transferable skills that complement my future goals in microbiology-related careers  
-
-## Project Status
-Current stage: Data analysis completed.
-
-Key analyses performed include:
-
-- Cell clustering and visualization  
-- Trajectory inference and pseudotime modeling  
-- Identification of dynamic gene programs  
-- Gene Ontology enrichment analysis  
-- Protein interaction network analysis  
-- Comparative analysis between mesenchymal progenitors and fibroblasts  
-
-Next steps include organizing results, preparing visualizations, and developing the final presentation and project report.
-
-## Key Results
-### UMAP Clustering of Stromal Cell Populations
-[View UMAP clustering](results/cluster_umap.pdf)
-
-### Mesenchymal Progenitor Trajectory
-[View mesenchymal trajectory](results/mesenchymal_trajectory.pdf)
-
-### Fibroblast Differentiation Trajectory
-[View fibroblast trajectory](results/fibroblast_trajectory.pdf)
-
-### Differential Expression Volcano Plot
-[View volcano plot](results/volcano_plot.pdf)
-
-### Gene Expression Heatmap (Early vs Late)
-[View heatmap](results/heatmap_Early_vs_Late_FINAL.pdf)
+1. **Data preprocessing and quality control** of single-cell RNA sequencing data
+2. **Cell clustering and visualization** using Seurat
+3. **Identification of stromal populations** including mesenchymal progenitor-like cells and fibroblasts
+4. **Trajectory inference and pseudotime analysis** using Monocle3
+5. **Identification of dynamically expressed pseudotime genes**
+6. **Comparative analysis of gene programs** between mesenchymal progenitors and fibroblasts
+7. **Functional enrichment analysis** using Gene Ontology (PANTHER)
+8. **Protein interaction network analysis** using STRING
+9. **Visualization of results** including UMAP plots, trajectories, heatmaps, and volcano plots
 
 ## Notes
 This repository is a work in progress and will continue to evolve as new analyses, documentation, and project materials are added throughout the Capstone project.
+
+## Author
+Suhani Patel  
+M.S. Bioinformatics, Northeastern University (Toronto)
+
