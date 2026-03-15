@@ -1,36 +1,28 @@
 # Single-Cell RNA-seq Analysis of Mesenchymal Progenitors and Fibroblasts
 
 ## Repository Purpose
-This repository contains the computational workflow and analysis for my Capstone project focusing on single-cell RNA sequencing (scRNA-seq) data analysis. The project investigates transcriptional dynamics in stromal cell populations and explores how gene expression programs change during cellular differentiation.
+
+This repository contains the computational workflow and results for a bioinformatics capstone project analyzing single-cell RNA sequencing (scRNA-seq) data from axolotl limb regeneration.
+
+The goal of this project is to investigate transcriptional dynamics within stromal cell populations, specifically mesenchymal progenitor-like cells and fibroblasts, and to identify gene expression programs associated with cellular differentiation and functional specialization.
+
 
 ## Description
 Bioinformatics analysis of single-cell RNA-seq data to study transcriptional dynamics in mesenchymal progenitors and fibroblasts during axolotl limb regeneration.
 
-## Dataset
+## Analysis Workflow
 
-The analysis uses publicly available single-cell RNA-sequencing data related to axolotl limb regeneration.
+The computational analysis pipeline used in this project follows these main steps:
 
-The dataset contains stromal cell populations including mesenchymal progenitor-like cells and fibroblasts, which were analyzed to investigate transcriptional dynamics during regeneration.
-
-## Tools used
-Key analysis tools used in this project include:
-
-- Seurat for clustering and visualization  
-- Monocle3 for trajectory and pseudotime analysis  
-- PANTHER for Gene Ontology enrichment analysis  
-- STRING for protein interaction network analysis  
-
-The goal of this project is to identify shared and population-specific gene programs that contribute to stromal cell differentiation and functional specialization.
-
-## Workflow
-1. Data preprocessing and quality control  
-2. Cell clustering and visualization  
-3. Identification of stromal cell populations  
-4. Trajectory inference using Monocle3  
-5. Identification of dynamic pseudotime genes  
-6. Gene Ontology enrichment analysis  
-7. Protein interaction network analysis  
-8. Comparative analysis of shared and unique gene programs  
+1. **Data preprocessing and quality control** of single-cell RNA sequencing data
+2. **Cell clustering and visualization** using Seurat
+3. **Identification of stromal populations** including mesenchymal progenitor-like cells and fibroblasts
+4. **Trajectory inference and pseudotime analysis** using Monocle3
+5. **Identification of dynamically expressed pseudotime genes**
+6. **Comparative analysis of gene programs** between mesenchymal progenitors and fibroblasts
+7. **Functional enrichment analysis** using Gene Ontology (PANTHER)
+8. **Protein interaction network analysis** using STRING
+9. **Visualization of results** including UMAP plots, trajectories, heatmaps, and volcano plots
 
 ## Key Results
 ### UMAP Clustering of Stromal Cell Populations
@@ -86,20 +78,6 @@ BINF7700_Capstone_Suhani
 │
 └── README.md
 ```  
-## Analysis Workflow
-
-The computational analysis pipeline used in this project follows these main steps:
-
-1. **Data preprocessing and quality control** of single-cell RNA sequencing data
-2. **Cell clustering and visualization** using Seurat
-3. **Identification of stromal populations** including mesenchymal progenitor-like cells and fibroblasts
-4. **Trajectory inference and pseudotime analysis** using Monocle3
-5. **Identification of dynamically expressed pseudotime genes**
-6. **Comparative analysis of gene programs** between mesenchymal progenitors and fibroblasts
-7. **Functional enrichment analysis** using Gene Ontology (PANTHER)
-8. **Protein interaction network analysis** using STRING
-9. **Visualization of results** including UMAP plots, trajectories, heatmaps, and volcano plots
-
 ## Tools and Software
 
 The following tools were used in this analysis:
@@ -110,6 +88,11 @@ The following tools were used in this analysis:
 * **STRING** – protein interaction network analysis
 * **R / RStudio** – statistical analysis and visualization
 * **GitHub** – project version control and documentation
+
+## Dataset
+
+The analysis uses publicly available single-cell RNA-sequencing data related to axolotl limb regeneration.
+The dataset contains stromal cell populations including mesenchymal progenitor-like cells and fibroblasts, which were analyzed to investigate transcriptional dynamics during regeneration.
 
 ## Reproducibility
 
@@ -127,8 +110,6 @@ git clone https://github.com/Suhani785/BINF7700_Capstone_Suhani.git
 
 4. Generated outputs will appear in the `results/` and `figures/` folders.
 
-## Notes
-This repository is a work in progress and will continue to evolve as new analyses, documentation, and project materials are added throughout the Capstone project.
 
 ## Author
 
