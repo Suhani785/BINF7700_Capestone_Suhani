@@ -4,9 +4,7 @@
 This repository contains the computational workflow and analysis for my Capstone project focusing on single-cell RNA sequencing (scRNA-seq) data analysis. The project investigates transcriptional dynamics in stromal cell populations and explores how gene expression programs change during cellular differentiation.
 
 ## Description
-This Capstone project analyzes single-cell RNA sequencing (scRNA-seq) data to investigate transcriptional dynamics in stromal cell populations. Specifically, the analysis compares mesenchymal progenitor-like cells and fibroblasts to understand how gene expression programs change during cellular differentiation.
-
-The computational workflow includes clustering, trajectory inference, pseudotime analysis, gene program comparison, functional enrichment analysis, and protein interaction network analysis.
+Bioinformatics analysis of single-cell RNA-seq data to study transcriptional dynamics in mesenchymal progenitors and fibroblasts during axolotl limb regeneration.
 
 ## Dataset
 
