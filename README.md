@@ -1,4 +1,4 @@
-# Single-Cell RNA-seq Analysis of Mesenchymal Progenitors and Fibroblasts
+# Single-Cell Transcriptomic Analysis of Stromal Cells in Axolotl Limb Regeneration 
 
 ## Repository Purpose
 
