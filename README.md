@@ -2,13 +2,11 @@
 
 ## Repository Purpose
 
-This repository contains the computational workflow and results for a bioinformatics capstone project analyzing single-cell RNA sequencing (scRNA-seq) data from axolotl limb regeneration.
-
-The goal of this project is to investigate transcriptional dynamics within stromal cell populations, specifically mesenchymal progenitor-like cells and fibroblasts, and to identify gene expression programs associated with cellular differentiation and functional specialization.
-
+This repository contains the computational workflow, analysis scripts, and results for a bioinformatics capstone project investigating single-cell RNA sequencing (scRNA-seq) data from axolotl limb regeneration. The project focuses on characterizing transcriptional dynamics in stromal cell populations, particularly mesenchymal progenitor-like cells and fibroblasts, to identify gene expression programs associated with cellular differentiation and functional specialization.
 
 ## Description
-Bioinformatics analysis of single-cell RNA-seq data to study transcriptional dynamics in mesenchymal progenitors and fibroblasts during axolotl limb regeneration.
+
+This project performs bioinformatics analysis of single-cell RNA sequencing (scRNA-seq) data to investigate transcriptional dynamics in stromal cell populations during axolotl limb regeneration. Using trajectory inference and pseudotime analysis, the study compares mesenchymal progenitor-like cells and fibroblasts to identify shared and population-specific gene expression programs associated with stromal cell differentiation.
 
 ## Analysis Workflow
 
@@ -25,20 +23,21 @@ The computational analysis pipeline used in this project follows these main step
 9. **Visualization of results** including UMAP plots, trajectories, heatmaps, and volcano plots
 
 ## Key Results
+
 ### UMAP Clustering of Stromal Cell Populations
-[View UMAP clustering](results/cluster_umap.pdf)
+![UMAP clustering](results/cluster_umap.png)
 
 ### Mesenchymal Progenitor Trajectory
-[View mesenchymal trajectory](results/mesenchymal_trajectory.pdf)
+![mesenchymal trajectory](results/mesenchymal_trajectory.png)
 
 ### Fibroblast Differentiation Trajectory
-[View fibroblast trajectory](results/fibroblast_trajectory.pdf)
+![fibroblast trajectory](results/fibroblast_trajectory.png)
 
 ### Differential Expression Volcano Plot
-[View volcano plot](results/volcano_plot.pdf)
+![volcano plot](results/volcano_plot.png)
 
 ### Gene Expression Heatmap (Early vs Late)
-[View heatmap](results/heatmap_Early_vs_Late_FINAL.pdf)
+![heatmap](results/heatmap_Early_vs_Late_FINAL.png)
 
 ## Project Structure
 
@@ -110,6 +109,19 @@ git clone https://github.com/Suhani785/BINF7700_Capstone_Suhani.git
 
 4. Generated outputs will appear in the `results/` and `figures/` folders.
 
+## References
+
+Stuart, T. et al. (2019). Comprehensive Integration of Single-Cell Data. Cell.
+
+Trapnell, C. et al. (2014). Pseudotime analysis of single-cell RNA-seq data reveals cell state transitions. Nature Biotechnology.
+
+Seurat: https://satijalab.org/seurat/
+
+Monocle3: https://cole-trapnell-lab.github.io/monocle3/
+
+PANTHER: http://pantherdb.org/
+
+STRING: https://string-db.org/
 
 ## Author
 
