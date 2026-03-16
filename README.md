@@ -130,4 +130,5 @@ M.S. Bioinformatics
 Northeastern University, Toronto
 
 GitHub: https://github.com/Suhani785
+Email: patel.suhan@northeastern.edu
 
