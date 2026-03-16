@@ -25,19 +25,19 @@ The computational analysis pipeline used in this project follows these main step
 ## Key Results
 
 ### UMAP Clustering of Stromal Cell Populations
-![UMAP clustering](results/cluster_umap.png)
+[View UMAP clustering](results/cluster_umap.pdf)
 
 ### Mesenchymal Progenitor Trajectory
-![mesenchymal trajectory](results/mesenchymal_trajectory.png)
+[View mesenchymal trajectory](results/mesenchymal_trajectory.pdf)
 
 ### Fibroblast Differentiation Trajectory
-![fibroblast trajectory](results/fibroblast_trajectory.png)
+[View fibroblast trajectory](results/fibroblast_trajectory.pdf)
 
 ### Differential Expression Volcano Plot
-![volcano plot](results/volcano_plot.png)
+[View volcano plot](results/volcano_plot.pdf)
 
 ### Gene Expression Heatmap (Early vs Late)
-![heatmap](results/heatmap_Early_vs_Late_FINAL.png)
+[View heatmap](results/heatmap_Early_vs_Late_FINAL.pdf)
 
 ## Project Structure
 
